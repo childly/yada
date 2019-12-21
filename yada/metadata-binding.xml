@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<flex-config>
+    <compiler>
+
+        <keep-as3-metadata append="true">
+            <name>Bind</name>
+            <name>Bindable</name>
+        </keep-as3-metadata>
+
+    </compiler>
+</flex-config>

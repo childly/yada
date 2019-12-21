@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="yada-tablet">
+    <configurations>
+      <configuration name="yada-tablet" target-platform="Mobile" pure-as="true" main-class="YadaTablet" output-file="yada-tablet.swf" output-folder="$MODULE_DIR$/out/production/yada">
+        <dependencies>
+          <entries>
+            <entry library-id="0486f40c-624c-42a4-994a-508ed7b75dad">
+              <dependency linkage="Include" />
+            </entry>
+          </entries>
+          <sdk name="15.0.0.356" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-load-config+=./yada/metadata-parsley-additional.xml -load-config+=./yada/metadata-parsley-core.xml -load-config+=./yada/metadata-spicelib-xml-mapping.xml -load-config+=./yada/metadata-cairngorm-navigation.xml -load-config+=./yada/metadata-binding.xml -advanced-telemetry=true" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/yada/Yada-app.xml" package-file-name="yada-tablet" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/yada/Yada-app.xml" package-file-name="yada-tablet">
+          <AirSigningOptions adt-options="-sampler" keystore-path="$USER_HOME$/ios/certificate/ios_air_development.p12" provisioning-profile-path="$USER_HOME$/ios/provisioning/Generic_Profile.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+      <configuration name="yada-main" target-platform="Desktop" pure-as="true" main-class="Main" output-file="yada-main.swf" output-folder="$MODULE_DIR$/out/production/yada">
+        <dependencies>
+          <sdk name="15.0.0.356" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/yada/Main-app.xml" package-file-name="yada-main" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+      <configuration name="yada-bmd" target-platform="Desktop" pure-as="true" main-class="YadaBitmapData" output-file="yada-bmd.swf" output-folder="$MODULE_DIR$/out/production/yada">
+        <dependencies>
+          <sdk name="15.0.0.356" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop package-file-name="yada-bmd" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/yada">
+      <sourceFolder url="file://$MODULE_DIR$/yada/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="15.0.0.356" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="0486f40c-624c-42a4-994a-508ed7b75dad" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/yada/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/yada/libs" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

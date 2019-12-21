@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flex-config>
+    <compiler>
+
+        <keep-as3-metadata append="true">
+            <name>DefaultProperty</name>
+            <name>Metadata</name>
+            <name>Required</name>
+
+            <name>TestMetadata</name>
+            <name>TestMetadata1</name>
+            <name>TestMetadata2</name>
+            <name>TestMetadata3</name>
+
+            <name>PostConstruct</name>
+            <name>PreDestroy</name>
+
+            <name>Observe</name>
+        </keep-as3-metadata>
+
+    </compiler>
+</flex-config>

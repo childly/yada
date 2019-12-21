@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flex-config>
+    <compiler>
+
+        <keep-as3-metadata append="true">
+            <name>Waypoint</name>
+            <name>Landmark</name>
+            <name>Enter</name>
+            <name>Exit</name>
+            <name>EnterInterceptor</name>
+            <name>ExitInterceptor</name>
+            <name>SelectedIndex</name>
+            <name>SelectedName</name>
+        </keep-as3-metadata>
+
+    </compiler>
+</flex-config>

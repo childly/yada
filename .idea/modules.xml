@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../placed-sdk-ane/placed-sdk-android/PlacedSDK.iml" filepath="$PROJECT_DIR$/../../placed-sdk-ane/placed-sdk-android/PlacedSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yada.iml" filepath="$PROJECT_DIR$/yada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yada-tablet/yada-tablet.iml" filepath="$PROJECT_DIR$/yada-tablet/yada-tablet.iml" />
+    </modules>
+  </component>
+</project>
